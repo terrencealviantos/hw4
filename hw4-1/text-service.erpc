@@ -1,0 +1,6 @@
+program TextLCD;
+interface TextLCDService
+{
+    putc(in uint8 c) -> void
+    locate(in uint8 column, in uint8 row) -> void
+}
